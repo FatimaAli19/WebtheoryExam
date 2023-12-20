@@ -1,106 +1,19 @@
-.home {
-        font-family: 'Georgia', serif;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 18px;
-        color: maroon;
-      } 
-      /* styles/footer.css */
-      .footer {
-        background-color: #A5A3A3; /* Set your desired background color */
-        color: #000000;
-         
-        margin-top: 20px;
-      }
-      
-      .fcontainer {
-        align-items: center;
-        justify-content: center;
-      }
-       
-       
-      
-/* styles/welcomePage.css */
-
-.welcome-page { 
-        background-color: maroon; 
-        color: #ffffff;
-        text-align: center;
-        padding: 50px 0;
-      } 
-      
-      
-/* styles/aboutUs.css */
-
-.about-us {
-        background-color: white; /* Set a background color if needed */
-        color: black; /* Set text color */
-        padding: 100px 0;
-      }
-      
-      
-      
-      .menu-page {
-        background-color: maroon; /* Set a background color if needed */
-        color: #000000; /* Set text color */
-         
-      }
-/* styles/contactUs.css */
-
-.contact-us {
-  background-color: white; /* Set a background color if needed */
-  color: #000000; /* Set text color */
-  padding: 50px 0;
+.custom-margin {
+  margin-left: 10rem; /* You can adjust the value based on your requirement */
 }
-.text-center{
-  text-align: center;
+.bgfooter {
+  /* background: #231516 */
+  background: linear-gradient(to right, #231516, #3F3825, #EF8F2D);
+  /* Add other styling properties for your footer */
 }
-.btn-center{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  place-items: center;
-   
-}
-.btnprop{
-  background-color: #A5A3A3;
-  padding: 10px;
-  border-radius:20px;
-  border-width: 0px;
-  
-}
-.txtfield{
-  width: 100%;
-  padding: 10px;
-  border-radius:20px;
-  border-width: 5px;
-  border-color: black;
-   
-}
-.circle-container {
-  position: relative;
-  width: 100px; /* Set the width of the circle */
-  height: 100px; /* Set the height of the circle */
-  background-color: #800000; /* Maroon color */
-  border-radius: 50%;
+.footer span {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600; /* 600 corresponds to semibold for Inter font */
+  color: ;
 }
 
-.circle-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; /* Set the text color */
-}
-.text-red{
-  color: #CA1E1E;
-}
-.btn-red{
-  background-color: #E50000;
-  color: white;
-}
-
-.end-button {
-  position: absolute;
-  bottom: 0;
+.bghead {
+  /* background: #231516 */
+  background-color: #110915;
+  /* Add other styling properties for your footer */
 }

@@ -1,22 +1,50 @@
 import React from 'react';
 import '../styles.css';
-import image1 from '../images/image 2.png'
+import image1 from '../images/Mask group.png';
+import image2 from '../images/fb.png';
+import image3 from '../images/twitter.png';
+import image4 from '../images/Vector.png'; // Add the Instagram image import
+
 function Footer() {
   return (
-    <footer className="footer">
-      <div className='fcontainer'>
-        <div className='row'>
-          <div className='col-sm-12 col-lg-6 '>
-            <img className='fimg' src={image1} alt='logo' /> 
-          </div>
-          <div className='col-sm-12 col-lg-6 '>
-            <p className='me-auto'>All copy rights are reserved by Sukkur IBA University</p>
-          </div>
-           
-
+    <footer className="footer bgfooter text-white"> 
+      <div className="row text-center">
+        <div className="col">
+          <img src={image1} alt="Logo" className="logo" />
         </div>
       </div>
 
+      {/* Columns */}
+      <div className="row custom-margin">
+        <div className="col-md-4 col-sm-12 col-lg-2">
+          <span>Web3Makr</span>
+        </div>
+        <div className="col-md-4 col-sm-12 col-lg-2">
+          <span>White paper</span>
+        </div>
+        <div className="col-md-4 col-sm-12 col-lg-2">
+          <span>Services</span>
+        </div>
+        <div className="col-md-4 col-sm-12 col-lg-2">
+          <span>Tool</span>
+        </div>
+        <div className="col-md-4 col-sm-12 col-lg-2">
+          <span>Contact us</span>
+        </div>
+      </div>
+
+      {/* Copyright text and social icons */}
+      <div className="row">
+        <div className="col-md-4 col-sm-12 col-lg-6"> 
+          <span>Copyright 2022 &copy; Web3makr</span>
+        </div>
+         
+        <div className="col-md-4 col-sm-12 col-lg-6 text-end "> 
+          <img src={image2} alt="Facebook" className="social-icon" />
+          <img src={image3} alt="Twitter" className="social-icon" />
+          <img src={image4} alt="Instagram" className="social-icon" />
+        </div>
+      </div>
     </footer>
   );
 }
