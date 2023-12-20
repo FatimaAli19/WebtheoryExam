@@ -10,12 +10,13 @@ function TwoImagesComponent() {
     <Container className="mt-5">
       <Row>
         <Col xs={12} md={6} className="mb-3">
-          <img src={firstImage} alt="First  " className="img-fluid w-100" style={{ height: 'auto' }} />
+          <img src={firstImage} alt="First Image" className="img-fluid w-100" style={{ maxWidth: '100%', height: 'auto' }} />
         </Col>
       </Row>
       <Row>
         <Col xs={12} md={6} className="mb-3">
-          <img src={secondImage} alt="Second  " className="img-fluid w-100" style={{ height: 'auto' }} />
+          <img src={secondImage} alt="Second Image" className="img-fluid w-100" style={{ maxWidth: '100%', height: 'auto' }} />
+          jjj
         </Col>
       </Row>
     </Container>

@@ -8,7 +8,7 @@ import image4 from '../images/Vector.png'; // Add the Instagram image import
 function Footer() {
   return (
     <footer className="footer bgfooter text-white mt-5">
-      <div className="container">
+      <div className="container mt-5">
         <div className="row text-center">
           <div className="col">
             <img src={image1} alt="Logo" className="logo" />
@@ -16,7 +16,7 @@ function Footer() {
         </div>
 
         {/* Columns */}
-        <div className="row mt-4">
+        <div className="row mt-5 ms-5">
           <div className="col-md-4 col-sm-12 col-lg-2">
             <span className="d-block">Web3Makr</span>
           </div>
